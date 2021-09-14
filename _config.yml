@@ -73,7 +73,42 @@ content:
         description: | # this will include new lines to allow paragraphs
                       Machine Learning API, that will help moderators Flag offensive memes for automatic moderation for discussion forums 
                       Uses LSTM for text analysis Uses VGG-16 Image model for image analysis and combines both the models to generate a cumulative
-                      result.
+                      result
+      - layout: left
+        title: AnonSend
+        link: github.com/Apex-94/AnonSend
+        link_text: Project Repository 
+        additional_links:
+          - title:  Apex-94/AnonSend
+            icon: fab fa-github
+            url: github.com/Apex-94/AnonSend
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+                      An anonymous file sharing service: Developed a system to upload file the server using Django.
+                      During ‘Upload’, the files are hashed to maintain Security
+                      The user can choose to keep a password for his file and an expiration date for the said file Theoretically there is no upload restrictions, Supports Multiple Uploads
+      - layout: left
+        title: PySync
+        link: github.com/Apex-94/PySync
+        link_text: Project Repository 
+        additional_links:
+          - title:  Apex-94/PySync
+            icon: fab fa-github
+            url: github.com/Apex-94/PySync
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+                      The goal of this project was to develop a software to sync files between, Single/Multiple Computer in LAN
+                      (Local Area Network) Automatically .
+                      Used Python as the base language, Used Hashing to track Changes in Files
+                      Implemented Master/slave ais a model of asymmetric communication or control where one device or process controls one or more other devices or processes and serves as their communication hub
   - title: Internship # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -113,13 +148,10 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
