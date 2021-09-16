@@ -52,8 +52,22 @@ about_content: | # this will include new lines to allow paragraphs
                 Python, Java, HTML5, JavaScript and other programming languages to produce clean code.
 
   # I am most skilled in: <mark>Python</mark> and <mark>Eating Pizza</mark>
-
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rajiv Gandhi Institute of Technology
+        caption: 2017 - 2021
+        sub_title: B.E Computer Engineering
+        quote: >
+         Rajiv Gandhi Institute of Technology is an institute affiliated to the University of Mumbai
+        description: | # this will include new lines to allow paragraphs
+          During my time at RGIT. I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          <br/>
+          CGPA : 7.17
+         
+# content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -128,20 +142,6 @@ content:
 
 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Rajiv Gandhi Institute of Technology
-        caption: 2017 - 2021
-        sub_title: B.E Computer Engineering
-        quote: >
-         Rajiv Gandhi Institute of Technology is an institute affiliated to the University of Mumbai
-        description: | # this will include new lines to allow paragraphs
-          During my time at RGIT. I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-          <br/>
-          CGPA : 7.17
-         
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
